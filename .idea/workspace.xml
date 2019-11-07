@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0177554-c52a-4ba3-a110-382d54e8dfb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/djangogirls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/djangogirls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1572944934209</updated>
       <workItem from="1572944936062" duration="4348000" />
-      <workItem from="1573097029317" duration="2729000" />
+      <workItem from="1573097029317" duration="7159000" />
     </task>
     <task id="LOCAL-00001" summary="...">
       <created>1572956059947</created>
