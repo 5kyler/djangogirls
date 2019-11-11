@@ -7,26 +7,13 @@
         <div>
             <h1><a href="">Minyo's blog</a> </h1>
         </div>
-
+    {%  for post in posts %}
         <div>
-            <p>published: 11.07.2019, 16:45</p>
-            <h2><a href="">My first post</a> </h2>
-            <p>
-                The poor are shunned by all their relatives—
-                how much more do their friends avoid them!
-                Though the poor pursue them with pleading,
-                they are nowhere to be found.
-            </p>
+           <p>published: {{ post.published_date }}</p>
+            <h1><a href="">{{ post.title }}</a> </h1>
+            <p>{{ post.text|linebreaksbr }}</p>
         </div>
-
-         <div>
-            <p>published: 11.07.2019, 16:45</p>
-            <h2><a href="">My second post</a> </h2>
-            <p>
-                Flog a mocker, and the simple will learn prudence;
-                rebuke the discerning, and they will gain knowledge.
-            </p>
-        </div>
+    {% endfor %}
     </body>
 
 </html>
